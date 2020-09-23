@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=Webstore
+
+
+[Package|Webstore|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Stuff\VB\Webstore\Package
+
+[Package|Webstore|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Webstore|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Webstore|Files Found]
+
+[Package|Webstore|Files Released]
+
+[Package|Webstore|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=
+
+[Package|Webstore|Out-of-Date Dependency Information]
+
+[Package|Webstore|Files Added]
+D:\Stuff\VB\Webstore\Program\Default.html=
+D:\Stuff\VB\Webstore\Program\Fixes.txt=
+D:\Stuff\VB\Webstore\Program\Readme.txt=
+D:\Stuff\VB\Webstore\Program\Whatsnew.txt=
+
+[Package|Webstore|Files Removed]
+
+[Package|Webstore|Files In Project]
+D:\Stuff\VB\Webstore\Program\Webstore.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Stuff\VB\Webstore\Program\Default.html=Yes
+D:\Stuff\VB\Webstore\Program\Fixes.txt=Yes
+D:\Stuff\VB\Webstore\Program\Readme.txt=Yes
+D:\Stuff\VB\Webstore\Program\Whatsnew.txt=Yes
+
+[Package|Webstore|Configure Registry Files]
+Applicable=No
+
+[Package|Webstore|Configure Remote Servers]
+Applicable=No
+
+[Package|Webstore|Install Locations]
+D:\Stuff\VB\Webstore\Program\Webstore.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Stuff\VB\Webstore\Program\Default.html=$(AppPath)
+D:\Stuff\VB\Webstore\Program\Fixes.txt=$(AppPath)
+D:\Stuff\VB\Webstore\Program\Readme.txt=$(AppPath)
+D:\Stuff\VB\Webstore\Program\Whatsnew.txt=$(AppPath)
+
+[Package|Webstore|Configure Shared Files]
+Applicable=Yes
+D:\Stuff\VB\Webstore\Program\Webstore.exe=Yes
+D:\Stuff\VB\Webstore\Program\Default.html=Yes
+D:\Stuff\VB\Webstore\Program\Fixes.txt=Yes
+D:\Stuff\VB\Webstore\Program\Readme.txt=Yes
+D:\Stuff\VB\Webstore\Program\Whatsnew.txt=Yes
+
+[Package|Webstore|Distribution]
+Type=single
+Size=
+Title=Webstore
+
+[Package|Webstore|IconGroups]
+Group0=Webstore
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Webstore|Webstore]
+Icon1=Webstore.exe
+Title1=Webstore
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Webstore|Package]
+PackageFolder=D:\Stuff\VB\Webstore\Package
+ProjectFolder=D:\Stuff\VB\Webstore
+ServerSideCab=
+File1=D:\Stuff\VB\Webstore\Package\setup.exe
+File2=D:\Stuff\VB\Webstore\Package\Setup.Lst
+File3=D:\Stuff\VB\Webstore\Package\Webstore.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
